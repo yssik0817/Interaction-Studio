@@ -1,0 +1,759 @@
+{
+  "records": [
+    {
+      "developerName": "wishlist",
+      "masterLabel": "wishlist",
+      "category": "Engagement",
+      "externalDataTranFields": [
+        {
+          "masterLabel": "category",
+          "dataType": "Text",
+          "developerName": "category",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "dateTime",
+          "dataType": "Date",
+          "developerName": "dateTime",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "deviceId",
+          "dataType": "Text",
+          "developerName": "deviceId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "eventId",
+          "dataType": "Text",
+          "developerName": "eventId",
+          "isDataRequired": true,
+          "primaryIndexOrder": 1
+        },
+        {
+          "masterLabel": "sessionId",
+          "dataType": "Text",
+          "developerName": "sessionId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "price",
+          "dataType": "Number",
+          "developerName": "price",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "productCategory",
+          "dataType": "Text",
+          "developerName": "productCategory",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "productId",
+          "dataType": "Text",
+          "developerName": "productId",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "productName",
+          "dataType": "Text",
+          "developerName": "productName",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "eventType",
+          "dataType": "Text",
+          "developerName": "eventType",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "sourcePageType",
+          "dataType": "Text",
+          "developerName": "sourcePageType",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "sourceUrl",
+          "dataType": "Text",
+          "developerName": "sourceUrl",
+          "isDataRequired": false
+        }
+      ]
+    },
+    {
+      "developerName": "addToCart",
+      "masterLabel": "addToCart",
+      "category": "Engagement",
+      "availabilityStatus": "INUSE",
+      "externalDataTranFields": [
+        {
+          "masterLabel": "test0517",
+          "dataType": "Text",
+          "developerName": "test0517",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "cartId",
+          "dataType": "Text",
+          "developerName": "cartId",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "category",
+          "dataType": "Text",
+          "developerName": "category",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "dateTime",
+          "dataType": "Date",
+          "developerName": "dateTime",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "deviceId",
+          "dataType": "Text",
+          "developerName": "deviceId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "eventId",
+          "dataType": "Text",
+          "developerName": "eventId",
+          "isDataRequired": true,
+          "primaryIndexOrder": 1
+        },
+        {
+          "masterLabel": "sessionId",
+          "dataType": "Text",
+          "developerName": "sessionId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "price",
+          "dataType": "Number",
+          "developerName": "price",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "productCategory",
+          "dataType": "Text",
+          "developerName": "productCategory",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "productId",
+          "dataType": "Text",
+          "developerName": "productId",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "productName",
+          "dataType": "Text",
+          "developerName": "productName",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "eventType",
+          "dataType": "Text",
+          "developerName": "eventType",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "sourcePageType",
+          "dataType": "Text",
+          "developerName": "sourcePageType",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "sourceUrl",
+          "dataType": "Text",
+          "developerName": "sourceUrl",
+          "isDataRequired": false
+        }
+      ],
+      "fieldCount": 11,
+      "availabilityStatusLabel": {
+        "label": "In Use",
+        "rawValue": "INUSE"
+      },
+      "streamingAppLabel": "web event sm2"
+    },
+    {
+      "developerName": "campaignViewed",
+      "masterLabel": "campaignViewed",
+      "category": "Engagement",
+      "availabilityStatus": "INUSE",
+      "externalDataTranFields": [
+        {
+          "masterLabel": "campaignId",
+          "dataType": "Text",
+          "developerName": "campaignId",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "campaignName",
+          "dataType": "Text",
+          "developerName": "campaignName",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "category",
+          "dataType": "Text",
+          "developerName": "category",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "dateTime",
+          "dataType": "Date",
+          "developerName": "dateTime",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "sessionId",
+          "dataType": "Text",
+          "developerName": "sessionId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "deviceId",
+          "dataType": "Text",
+          "developerName": "deviceId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "eventId",
+          "dataType": "Text",
+          "developerName": "eventId",
+          "isDataRequired": true,
+          "primaryIndexOrder": 1
+        },
+        {
+          "masterLabel": "eventType",
+          "dataType": "Text",
+          "developerName": "eventType",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "description",
+          "dataType": "Text",
+          "developerName": "description",
+          "isDataRequired": false
+        }
+      ],
+      "fieldCount": 9,
+      "availabilityStatusLabel": {
+        "label": "In Use",
+        "rawValue": "INUSE"
+      },
+      "streamingAppLabel": "web event sm2"
+    },
+    {
+      "developerName": "Identity",
+      "masterLabel": "Identity",
+      "category": "Profile",
+      "availabilityStatus": "INUSE",
+      "externalDataTranFields": [
+        {
+          "masterLabel": "browserType",
+          "dataType": "Text",
+          "developerName": "browserType",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "sessionId",
+          "dataType": "Text",
+          "developerName": "sessionId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "category",
+          "dataType": "Text",
+          "developerName": "category",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "dateTime",
+          "dataType": "Date",
+          "developerName": "dateTime",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "deviceId",
+          "dataType": "Text",
+          "developerName": "deviceId",
+          "isDataRequired": true,
+          "primaryIndexOrder": 1
+        },
+        {
+          "masterLabel": "deviceType",
+          "dataType": "Text",
+          "developerName": "deviceType",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "email",
+          "dataType": "Text",
+          "developerName": "email",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "eventId",
+          "dataType": "Text",
+          "developerName": "eventId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "eventType",
+          "dataType": "Text",
+          "developerName": "eventType",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "firstName",
+          "dataType": "Text",
+          "developerName": "firstName",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "lastName",
+          "dataType": "Text",
+          "developerName": "lastName",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "osName",
+          "dataType": "Text",
+          "developerName": "osName",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "phone",
+          "dataType": "Text",
+          "developerName": "phone",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "phoneCountryCode",
+          "dataType": "Text",
+          "developerName": "phoneCountryCode",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "browserVersion",
+          "dataType": "Text",
+          "developerName": "browserVersion",
+          "isDataRequired": false
+        }
+      ],
+      "fieldCount": 15,
+      "availabilityStatusLabel": {
+        "label": "In Use",
+        "rawValue": "INUSE"
+      },
+      "streamingAppLabel": "web event sm2"
+    },
+    {
+      "developerName": "interestedItem",
+      "masterLabel": "interestedItem",
+      "category": "Engagement",
+      "availabilityStatus": "INUSE",
+      "externalDataTranFields": [
+        {
+          "masterLabel": "category",
+          "dataType": "Text",
+          "developerName": "category",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "dateTime",
+          "dataType": "Date",
+          "developerName": "dateTime",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "deviceId",
+          "dataType": "Text",
+          "developerName": "deviceId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "eventId",
+          "dataType": "Text",
+          "developerName": "eventId",
+          "isDataRequired": true,
+          "primaryIndexOrder": 1
+        },
+        {
+          "masterLabel": "sessionId",
+          "dataType": "Text",
+          "developerName": "sessionId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "price",
+          "dataType": "Number",
+          "developerName": "price",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "productCategory",
+          "dataType": "Text",
+          "developerName": "productCategory",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "productId",
+          "dataType": "Text",
+          "developerName": "productId",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "productName",
+          "dataType": "Text",
+          "developerName": "productName",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "eventType",
+          "dataType": "Text",
+          "developerName": "eventType",
+          "isDataRequired": true
+        }
+      ],
+      "fieldCount": 10,
+      "availabilityStatusLabel": {
+        "label": "In Use",
+        "rawValue": "INUSE"
+      },
+      "streamingAppLabel": "web event sm2"
+    },
+    {
+      "developerName": "logined",
+      "masterLabel": "logined",
+      "category": "Engagement",
+      "availabilityStatus": "INUSE",
+      "externalDataTranFields": [
+        {
+          "masterLabel": "category",
+          "dataType": "Text",
+          "developerName": "category",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "dateTime",
+          "dataType": "Date",
+          "developerName": "dateTime",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "description",
+          "dataType": "Text",
+          "developerName": "description",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "sessionId",
+          "dataType": "Text",
+          "developerName": "sessionId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "eventId",
+          "dataType": "Text",
+          "developerName": "eventId",
+          "isDataRequired": true,
+          "primaryIndexOrder": 1
+        },
+        {
+          "masterLabel": "eventType",
+          "dataType": "Text",
+          "developerName": "eventType",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "deviceId",
+          "dataType": "Text",
+          "developerName": "deviceId",
+          "isDataRequired": true
+        }
+      ],
+      "fieldCount": 7,
+      "availabilityStatusLabel": {
+        "label": "In Use",
+        "rawValue": "INUSE"
+      },
+      "streamingAppLabel": "web event sm2"
+    },
+    {
+      "developerName": "partyIdentification",
+      "masterLabel": "partyIdentification",
+      "category": "Profile",
+      "availabilityStatus": "INUSE",
+      "externalDataTranFields": [
+        {
+          "masterLabel": "category",
+          "dataType": "Text",
+          "developerName": "category",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "dateTime",
+          "dataType": "Date",
+          "developerName": "dateTime",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "deviceId",
+          "dataType": "Text",
+          "developerName": "deviceId",
+          "isDataRequired": true,
+          "primaryIndexOrder": 1
+        },
+        {
+          "masterLabel": "eventId",
+          "dataType": "Text",
+          "developerName": "eventId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "userIdentification",
+          "dataType": "Text",
+          "developerName": "userIdentification",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "IDName",
+          "dataType": "Text",
+          "developerName": "IDName",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "IDType",
+          "dataType": "Text",
+          "developerName": "IDType",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "sessionId",
+          "dataType": "Text",
+          "developerName": "sessionId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "eventType",
+          "dataType": "Text",
+          "developerName": "eventType",
+          "isDataRequired": true
+        }
+      ],
+      "fieldCount": 9,
+      "availabilityStatusLabel": {
+        "label": "In Use",
+        "rawValue": "INUSE"
+      },
+      "streamingAppLabel": "web event sm2"
+    },
+    {
+      "developerName": "productViewed",
+      "masterLabel": "productViewed",
+      "category": "Engagement",
+      "availabilityStatus": "INUSE",
+      "externalDataTranFields": [
+        {
+          "masterLabel": "category",
+          "dataType": "Text",
+          "developerName": "category",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "dateTime",
+          "dataType": "Date",
+          "developerName": "dateTime",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "deviceId",
+          "dataType": "Text",
+          "developerName": "deviceId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "eventId",
+          "dataType": "Text",
+          "developerName": "eventId",
+          "isDataRequired": true,
+          "primaryIndexOrder": 1
+        },
+        {
+          "masterLabel": "sessionId",
+          "dataType": "Text",
+          "developerName": "sessionId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "price",
+          "dataType": "Number",
+          "developerName": "price",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "productCategory",
+          "dataType": "Text",
+          "developerName": "productCategory",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "productId",
+          "dataType": "Text",
+          "developerName": "productId",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "productName",
+          "dataType": "Text",
+          "developerName": "productName",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "eventType",
+          "dataType": "Text",
+          "developerName": "eventType",
+          "isDataRequired": true
+        }
+      ],
+      "fieldCount": 10,
+      "availabilityStatusLabel": {
+        "label": "In Use",
+        "rawValue": "INUSE"
+      },
+      "streamingAppLabel": "web event sm2"
+    },
+    {
+      "developerName": "searchViewed",
+      "masterLabel": "searchViewed",
+      "category": "Engagement",
+      "availabilityStatus": "INUSE",
+      "externalDataTranFields": [
+        {
+          "masterLabel": "category",
+          "dataType": "Text",
+          "developerName": "category",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "dateTime",
+          "dataType": "Date",
+          "developerName": "dateTime",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "deviceId",
+          "dataType": "Text",
+          "developerName": "deviceId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "sessionId",
+          "dataType": "Text",
+          "developerName": "sessionId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "eventType",
+          "dataType": "Text",
+          "developerName": "eventType",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "searchIndex",
+          "dataType": "Text",
+          "developerName": "searchIndex",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "eventId",
+          "dataType": "Text",
+          "developerName": "eventId",
+          "isDataRequired": true,
+          "primaryIndexOrder": 1
+        }
+      ],
+      "fieldCount": 7,
+      "availabilityStatusLabel": {
+        "label": "In Use",
+        "rawValue": "INUSE"
+      },
+      "streamingAppLabel": "web event sm2"
+    },
+    {
+      "developerName": "specificPageViewed",
+      "masterLabel": "specificPageViewed",
+      "category": "Engagement",
+      "availabilityStatus": "INUSE",
+      "externalDataTranFields": [
+        {
+          "masterLabel": "category",
+          "dataType": "Text",
+          "developerName": "category",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "dateTime",
+          "dataType": "Date",
+          "developerName": "dateTime",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "description",
+          "dataType": "Text",
+          "developerName": "description",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "deviceId",
+          "dataType": "Text",
+          "developerName": "deviceId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "sessionId",
+          "dataType": "Text",
+          "developerName": "sessionId",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "eventType",
+          "dataType": "Text",
+          "developerName": "eventType",
+          "isDataRequired": true
+        },
+        {
+          "masterLabel": "pageId",
+          "dataType": "Text",
+          "developerName": "pageId",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "pageName",
+          "dataType": "Text",
+          "developerName": "pageName",
+          "isDataRequired": false
+        },
+        {
+          "masterLabel": "eventId",
+          "dataType": "Text",
+          "developerName": "eventId",
+          "isDataRequired": true,
+          "primaryIndexOrder": 1
+        }
+      ],
+      "fieldCount": 9,
+      "availabilityStatusLabel": {
+        "label": "In Use",
+        "rawValue": "INUSE"
+      },
+      "streamingAppLabel": "web event sm2"
+    }
+  ]
+}
